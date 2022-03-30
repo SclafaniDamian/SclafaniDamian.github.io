@@ -8,14 +8,33 @@ body {
     padding:10px;
     margin:10px;
     background:mediumseagreen;
+    border-radius:10px;
 }
 
 .assignment img {
     width:200px;
-    padding:10px;
+    margin:10px;
+    border:3px solid black;
+}
+
+.assignment img:hover {
+    border:3px dashed blue;
 }
 
 h1 {
-    color:darkslategray;
+    color:black;
     text-align:center;
+}
+
+h1:hover {
+    color:blue;
+}
+
+a {
+    text-decoration:none;
+    color:black;
+}
+
+a:hover {
+    color:blue;
 }
